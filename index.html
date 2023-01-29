@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <!--  LINKS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon.png">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- MAIN JS -->
+    <script defer src="./js/script.js"> </script>
+
+</head>
+<body>
+
+    <main>
+        <img src="#" class="pokemon__image" alt="pokemon">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span> - 
+            <span class="pokemon__name"></span>
+            
+        </h1>
+
+        <form class="form">
+            <input 
+            type="search"
+            class="input__search"
+            placeholder="Name or number"
+            required   /* required é uma propriedade que obriga o usuário a preencher o campo ssas */
+            />
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt; </button>
+            <button class="button btn-next">Next &gt; </button>
+        </div>
+
+        <img src="./images/pokedex.png" class="pokedex" alt="pokedex">
+    </main>
+    
+</body>
+</html>
